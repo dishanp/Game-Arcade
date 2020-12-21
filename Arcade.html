@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Arcade</title>
+  <style>
+    body{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRofQgDkZQfoO7Vbzlqgj6eccY_KcC3errHrA&usqp=CAU');
+    background-size: 100% 100%;
+}
+  </style>
+  
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" href="data:image/jpeg;base64,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" type="image/icon type">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <p class="navbar-text"><b>&copy; Game Arcade by Dishan Purkayastha</b></p>
+  </nav>
+  <div class="container">
+    <div class="jumbotron">
+        <h1><b>Coin Tosses To:<div id="show" style="color: brown; font-weight: bold;"></div></b></h1>
+        
+     
+      <a class="btn btn-success btn-lg" id="but">Toss</a>
+      <a class="btn btn-success btn-lg" id="but_cl">Clear</a>
+    </div>
+  </div>
+  <br><br>
+  <div class="container">
+    <div class="jumbotron">
+        <h1><b>Dice Rolls To:<div id="show1" style="color: brown; font-weight: bold;"></div></b></h1>
+        
+     
+      <a class="btn btn-success btn-lg" id="but1">Roll</a>
+      <a class="btn btn-success btn-lg" id="but_cl1">Clear</a>
+    </div>
+  <br><br>
+  <div class="container">
+    <div class="jumbotron">
+        <h1><b>Play Stone,Paper,Scissor With Me!<div id="show2" style="color: brown; font-weight: bold;"></div></b></h1>
+        
+     
+      <a class="btn btn-success btn-lg" id="Stone">Stone</a>
+      <a class="btn btn-warning btn-lg" id="Paper">Paper</a>
+      <a class="btn btn-danger btn-lg" id="Scissor">Scissor</a>
+      <br>
+      <div class="container">
+        <div class="jumbotron">
+            <h3><b>Score Board:</b></h3>
+            PLAYER:<div id="player" style="color: brown; font-weight: bold;"></div>
+            COMPUTER:<div id="comp" style="color: brown; font-weight: bold;"></div>
+            COMMENTS:<div id="comm" style="color:green; font-weight: bold;"></div>
+            <br>
+            <center>
+            <div id="result" style="font-weight: bold;color:teal;"></div>
+           </center>
+        </div>
+    </div>
+  </div>
+  <script src="arcade.js">
+  </script>
+</body>
+</html>
